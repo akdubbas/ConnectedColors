@@ -1,0 +1,609 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColorSwitchViewController"
+provides-nominal:
+- "15ConnectedColors25ColorSwitchViewControllerC"
+provides-member:
+- ["15ConnectedColors25ColorSwitchViewControllerC", ""]
+provides-dynamic-lookup:
+- "change"
+- "colorChanged"
+- "colorService"
+- "connectedDevicesChanged"
+- "connectionsLabel"
+- "redTapped"
+- "viewDidLoad"
+- "yellowTapped"
+depends-top-level:
+- "AssignmentPrecedence"
+- "ColorServiceManager"
+- "ColorServiceManagerDelegate"
+- "ColorSwitchViewController"
+- !private "NSLog"
+- !private "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "UIColor"
+- "UILabel"
+- !private "UIView"
+- "UIViewController"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", "ColorServiceManager"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "change"]
+- ["s7CVarArgP", "colorChanged"]
+- !private ["s7CVarArgP", "colorService"]
+- ["s7CVarArgP", "connectedDevicesChanged"]
+- !private ["s7CVarArgP", "connectionsLabel"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "send"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "yellow"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["15ConnectedColors19ColorServiceManagerC", "delegate"]
+- ["15ConnectedColors19ColorServiceManagerC", "init"]
+- !private ["15ConnectedColors19ColorServiceManagerC", "send"]
+- ["15ConnectedColors27ColorServiceManagerDelegateP", "ColorServiceManager"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "NSLog"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "OperationQueue"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "UIView"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "change"]
+- ["15ConnectedColors27ColorServiceManagerDelegateP", "colorChanged"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "colorService"]
+- ["15ConnectedColors27ColorServiceManagerDelegateP", "connectedDevicesChanged"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "connectionsLabel"]
+- !private ["15ConnectedColors27ColorServiceManagerDelegateP", "view"]
+- ["15ConnectedColors27ColorServiceManagerDelegateP", ""]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "ColorServiceManager"]
+- !private ["15ConnectedColors25ColorSwitchViewControllerC", "NSLog"]
+- !private ["15ConnectedColors25ColorSwitchViewControllerC", "OperationQueue"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "String"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "UIColor"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "UILabel"]
+- !private ["15ConnectedColors25ColorSwitchViewControllerC", "UIView"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "change"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "colorChanged"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "colorService"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "connectedDevicesChanged"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "connectionsLabel"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "deinit"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "init"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "redTapped"]
+- !private ["15ConnectedColors25ColorSwitchViewControllerC", "view"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "viewDidLoad"]
+- ["15ConnectedColors25ColorSwitchViewControllerC", "yellowTapped"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "ColorServiceManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "change"]
+- ["s28CustomDebugStringConvertibleP", "colorChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "colorService"]
+- ["s28CustomDebugStringConvertibleP", "connectedDevicesChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "connectionsLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "send"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "yellow"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "ColorServiceManager"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "change"]
+- ["s23CustomStringConvertibleP", "colorChanged"]
+- !private ["s23CustomStringConvertibleP", "colorService"]
+- ["s23CustomStringConvertibleP", "connectedDevicesChanged"]
+- !private ["s23CustomStringConvertibleP", "connectionsLabel"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "send"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "yellow"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "ColorServiceManager"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "OperationQueue"]
+- !private ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "change"]
+- ["s9EquatableP", "colorChanged"]
+- !private ["s9EquatableP", "colorService"]
+- ["s9EquatableP", "connectedDevicesChanged"]
+- !private ["s9EquatableP", "connectionsLabel"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "red"]
+- !private ["s9EquatableP", "send"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "yellow"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "ColorServiceManager"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "OperationQueue"]
+- !private ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "change"]
+- ["s8HashableP", "colorChanged"]
+- !private ["s8HashableP", "colorService"]
+- ["s8HashableP", "connectedDevicesChanged"]
+- !private ["s8HashableP", "connectionsLabel"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "red"]
+- !private ["s8HashableP", "send"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "yellow"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "delegate"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "init"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "send"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "delegate"]
+- ["So30MCNearbyServiceBrowserDelegateP", "init"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "send"]
+- !private ["So17MCSessionDelegateP", "delegate"]
+- ["So17MCSessionDelegateP", "init"]
+- !private ["So17MCSessionDelegateP", "send"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "ColorServiceManager"]
+- !private ["So8NSCodingP", "NSLog"]
+- !private ["So8NSCodingP", "OperationQueue"]
+- !private ["So8NSCodingP", "UIView"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "change"]
+- ["So8NSCodingP", "colorChanged"]
+- !private ["So8NSCodingP", "colorService"]
+- ["So8NSCodingP", "connectedDevicesChanged"]
+- !private ["So8NSCodingP", "connectionsLabel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "yellow"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "yellow"]
+- ["So26NSExtensionRequestHandlingP", "ColorServiceManager"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLog"]
+- !private ["So26NSExtensionRequestHandlingP", "OperationQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- !private ["So26NSExtensionRequestHandlingP", "change"]
+- ["So26NSExtensionRequestHandlingP", "colorChanged"]
+- !private ["So26NSExtensionRequestHandlingP", "colorService"]
+- ["So26NSExtensionRequestHandlingP", "connectedDevicesChanged"]
+- !private ["So26NSExtensionRequestHandlingP", "connectionsLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "yellow"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "yellow"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "ColorServiceManager"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "change"]
+- ["So8NSObjectC", "colorChanged"]
+- ["So8NSObjectC", "colorService"]
+- ["So8NSObjectC", "connectedDevicesChanged"]
+- ["So8NSObjectC", "connectionsLabel"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "red"]
+- ["So8NSObjectC", "redTapped"]
+- !private ["So8NSObjectC", "send"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "yellow"]
+- ["So8NSObjectC", "yellowTapped"]
+- ["So16NSObjectProtocolP", "ColorServiceManager"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "OperationQueue"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "change"]
+- ["So16NSObjectProtocolP", "colorChanged"]
+- !private ["So16NSObjectProtocolP", "colorService"]
+- ["So16NSObjectProtocolP", "connectedDevicesChanged"]
+- !private ["So16NSObjectProtocolP", "connectionsLabel"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "red"]
+- !private ["So16NSObjectProtocolP", "send"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "yellow"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "yellow"]
+- !private ["So8NSStringC", "init"]
+- !private ["So14OperationQueueC", "addOperation"]
+- !private ["So14OperationQueueC", "main"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "ColorServiceManager"]
+- !private ["So21UIAppearanceContainerP", "NSLog"]
+- !private ["So21UIAppearanceContainerP", "OperationQueue"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "change"]
+- ["So21UIAppearanceContainerP", "colorChanged"]
+- !private ["So21UIAppearanceContainerP", "colorService"]
+- ["So21UIAppearanceContainerP", "connectedDevicesChanged"]
+- !private ["So21UIAppearanceContainerP", "connectionsLabel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "yellow"]
+- ["So18UIContentContainerP", "ColorServiceManager"]
+- !private ["So18UIContentContainerP", "NSLog"]
+- !private ["So18UIContentContainerP", "OperationQueue"]
+- !private ["So18UIContentContainerP", "UIView"]
+- !private ["So18UIContentContainerP", "change"]
+- ["So18UIContentContainerP", "colorChanged"]
+- !private ["So18UIContentContainerP", "colorService"]
+- ["So18UIContentContainerP", "connectedDevicesChanged"]
+- !private ["So18UIContentContainerP", "connectionsLabel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "ColorServiceManager"]
+- !private ["So18UIFocusEnvironmentP", "NSLog"]
+- !private ["So18UIFocusEnvironmentP", "OperationQueue"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "change"]
+- ["So18UIFocusEnvironmentP", "colorChanged"]
+- !private ["So18UIFocusEnvironmentP", "colorService"]
+- ["So18UIFocusEnvironmentP", "connectedDevicesChanged"]
+- !private ["So18UIFocusEnvironmentP", "connectionsLabel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "ColorServiceManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLog"]
+- !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "change"]
+- ["So30UIPasteConfigurationSupportingP", "colorChanged"]
+- !private ["So30UIPasteConfigurationSupportingP", "colorService"]
+- ["So30UIPasteConfigurationSupportingP", "connectedDevicesChanged"]
+- !private ["So30UIPasteConfigurationSupportingP", "connectionsLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "ColorServiceManager"]
+- !private ["So11UIResponderC", "NSLog"]
+- !private ["So11UIResponderC", "OperationQueue"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "change"]
+- ["So11UIResponderC", "colorChanged"]
+- ["So11UIResponderC", "colorService"]
+- ["So11UIResponderC", "connectedDevicesChanged"]
+- ["So11UIResponderC", "connectionsLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "redTapped"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "yellowTapped"]
+- ["So30UIResponderStandardEditActionsP", "ColorServiceManager"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLog"]
+- !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "change"]
+- ["So30UIResponderStandardEditActionsP", "colorChanged"]
+- !private ["So30UIResponderStandardEditActionsP", "colorService"]
+- ["So30UIResponderStandardEditActionsP", "connectedDevicesChanged"]
+- !private ["So30UIResponderStandardEditActionsP", "connectionsLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So16UIStateRestoringP", "ColorServiceManager"]
+- !private ["So16UIStateRestoringP", "NSLog"]
+- !private ["So16UIStateRestoringP", "OperationQueue"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- !private ["So16UIStateRestoringP", "change"]
+- ["So16UIStateRestoringP", "colorChanged"]
+- !private ["So16UIStateRestoringP", "colorService"]
+- ["So16UIStateRestoringP", "connectedDevicesChanged"]
+- !private ["So16UIStateRestoringP", "connectionsLabel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- ["So18UITraitEnvironmentP", "ColorServiceManager"]
+- !private ["So18UITraitEnvironmentP", "NSLog"]
+- !private ["So18UITraitEnvironmentP", "OperationQueue"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "change"]
+- ["So18UITraitEnvironmentP", "colorChanged"]
+- !private ["So18UITraitEnvironmentP", "colorService"]
+- ["So18UITraitEnvironmentP", "connectedDevicesChanged"]
+- !private ["So18UITraitEnvironmentP", "connectionsLabel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "ColorServiceManager"]
+- !private ["So16UIViewControllerC", "NSLog"]
+- !private ["So16UIViewControllerC", "OperationQueue"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "change"]
+- ["So16UIViewControllerC", "colorChanged"]
+- ["So16UIViewControllerC", "colorService"]
+- ["So16UIViewControllerC", "connectedDevicesChanged"]
+- ["So16UIViewControllerC", "connectionsLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "redTapped"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "yellowTapped"]
+- ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "yellow"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ColorServiceManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "change"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "colorChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colorService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectedDevicesChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectionsLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "send"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yellow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "15ConnectedColors19ColorServiceManagerC"
+- "15ConnectedColors27ColorServiceManagerDelegateP"
+- "15ConnectedColors25ColorSwitchViewControllerC"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So33MCNearbyServiceAdvertiserDelegateP"
+- "So30MCNearbyServiceBrowserDelegateP"
+- "So17MCSessionDelegateP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So14OperationQueueC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d96d4298e3b7f0bca2140d9c91a1460c"

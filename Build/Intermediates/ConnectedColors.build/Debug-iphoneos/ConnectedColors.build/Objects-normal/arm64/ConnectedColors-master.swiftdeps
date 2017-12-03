@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "1f69774be30054c10dd0bba9be52e867"
+build_time: [1512328127, 662136000]
+inputs:
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/ConnectedColorsStarter/ConnectedColors/ColorSwitchViewController.swift": [1512328026, 0]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/ConnectedColorsStarter/ConnectedColors/AppDelegate.swift": [1486780438, 0]
+  "/Users/amithdubbasi/Desktop/iOS Stuff/iOS Projects Amith/ConnectedColorsStarter/ConnectedColors/ColorServiceManager.swift": [1512327780, 0]
