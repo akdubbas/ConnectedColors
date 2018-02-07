@@ -1,6 +1,6 @@
 # ConnectedColors
 
-This app uses Multipeer Connectivity framework, which lets iOS devices to communicate via Bluetooth.
+This app is developed in Swift 4.0 and uses Multipeer Connectivity framework, which lets iOS devices to communicate via Bluetooth.
 
 Multipeer Connectivity
 
